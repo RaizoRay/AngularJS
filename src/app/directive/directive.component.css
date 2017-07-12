@@ -1,0 +1,14 @@
+.border{
+    border: 3px solid #333;
+}
+
+.background{
+    background-color: #468966;
+    height: 200px;
+    width: 200px;
+}
+
+.placeholder {
+  display: inline-block;
+  border-radius: 50%;
+}
