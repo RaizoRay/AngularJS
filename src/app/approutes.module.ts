@@ -11,8 +11,8 @@ import { HeroesComponent } from './maincontent/heroes/heroes.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-const APP_ROUTES = [
-    { path: '', redirectTo: '/dashboard', pathMatch: 'full' },    
+const APP_ROUTES: Routes = [
+    { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
     { path: 'App', component: AppComponent },
     { path: 'header', component: HeaderComponent },
     { path: 'maincontent', component: MaincontentComponent },
